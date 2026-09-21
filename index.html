@@ -469,7 +469,7 @@
 
   /* ---------- Отправить ответ ---------- */
   $('send').addEventListener('click', function () {
-    var text = 'Да! Свидание — ' + dateText + ', в ' + timeText + ' \uD83D\uDC98';
+    var text = 'Да! Свидание — ' + dateText + ', в ' + timeText + ' 💘';
     var out = $('msg');
     if (TELEGRAM_USERNAME) {
       window.open('https://t.me/' + encodeURIComponent(TELEGRAM_USERNAME) + '?text=' + encodeURIComponent(text), '_blank', 'noopener');
